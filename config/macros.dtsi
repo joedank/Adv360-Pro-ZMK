@@ -1,36 +1,108 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+macro_tabswitchright: macro_tabswitchright{
+compatible = "zmk,behavior-macro";
+label = "macro_tabswitchright";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp RIGHT_BRACKET>;
+};
+macro_tabswitchleft: macro_tabswitchleft{
+compatible = "zmk,behavior-macro";
+label = "macro_tabswitchleft";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LEFT_BRACKET>;
+};
+macro_quickreply3: macro_quickreply3{
+compatible = "zmk,behavior-macro";
+label = "macro_quickreply3";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LCMD>, <&kp NUMBER_3>;
+};
+macro_quickreply2: macro_quickreply2{
+compatible = "zmk,behavior-macro";
+label = "macro_quickreply2";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LCMD>, <&kp NUMBER_2>;
+};
+macro_quickreply1: macro_quickreply1{
+compatible = "zmk,behavior-macro";
+label = "macro_quickreply1";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LCMD>, <&kp NUMBER_1>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp V>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp C>;
+};
+macro_emojii: macro_emojii{
+compatible = "zmk,behavior-macro";
+label = "macro_emojii";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp LCMD>, <&kp SPACE>;
+};
+macro_chat3: macro_chat3{
+compatible = "zmk,behavior-macro";
+label = "macro_chat3";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp NUMBER_3>;
+};
+macro_acceptchat: macro_acceptchat{
+compatible = "zmk,behavior-macro";
+label = "macro_acceptchat";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp LCMD>, <&kp J>, <&kp SPACE>;
+};
+macro_chat2: macro_chat2{
+compatible = "zmk,behavior-macro";
+label = "macro_chat2";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp NUMBER_2>;
+};
+macro_chat1: macro_chat1{
+compatible = "zmk,behavior-macro";
+label = "macro_chat1";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp NUMBER_1>;
+};
+macro_quotes: macro_quotes{
+compatible = "zmk,behavior-macro";
+label = "macro_quotes";
+#binding-cells = <0>;
+bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+};
+macro_dquotes: macro_dquotes{
+compatible = "zmk,behavior-macro";
+label = "macro_dquotes";
+#binding-cells = <0>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+};
+macro_braces: macro_braces{
+compatible = "zmk,behavior-macro";
+label = "macro_braces";
+#binding-cells = <0>;
+bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+};
+macro_parens: macro_parens{
+compatible = "zmk,behavior-macro";
+label = "macro_parens";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+};
+macro_brackets: macro_brackets{
+compatible = "zmk,behavior-macro";
+label = "macro_brackets";
+#binding-cells = <0>;
+bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+};
