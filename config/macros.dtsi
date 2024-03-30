@@ -1,3 +1,21 @@
+macro_guess2: macro_guess2{
+compatible = "zmk,behavior-macro";
+label = "macro_guess2";
+#binding-cells = <0>;
+bindings = <&kp LS(F)>, <&kp R>, <&kp E>, <&kp D>, <&kp D>, <&kp E>, <&kp HASH>, <&kp NUMBER_3>, <&kp NUMBER_3>, <&kp NUMBER_3>;
+};
+macro_guess: macro_guess{
+compatible = "zmk,behavior-macro";
+label = "macro_guess";
+#binding-cells = <0>;
+bindings = <&kp LS(C)>, <&kp A>, <&kp C>, <&kp F>, <&kp NUMBER_9>, <&kp NUMBER_1>, <&kp C>, <&kp A>, <&kp EXCLAMATION>, <&kp NUMBER_1>;
+};
+macro_accept: macro_accept{
+compatible = "zmk,behavior-macro";
+label = "macro_accept";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(J))>;
+};
 macro_tabswitchright: macro_tabswitchright{
 compatible = "zmk,behavior-macro";
 label = "macro_tabswitchright";
