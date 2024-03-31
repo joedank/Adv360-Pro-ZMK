@@ -1,3 +1,27 @@
+macro_greetedk: macro_greetedk{
+compatible = "zmk,behavior-macro";
+label = "macro_greetedk";
+#binding-cells = <0>;
+bindings = <&kp HASH>, <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp T>, <&kp E>, <&kp D>, <&kp K>, <&kp SPACE>;
+};
+macro_greeted: macro_greeted{
+compatible = "zmk,behavior-macro";
+label = "macro_greeted";
+#binding-cells = <0>;
+bindings = <&kp HASH>, <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp T>, <&kp E>, <&kp D>, <&kp SPACE>;
+};
+macro_greetk: macro_greetk{
+compatible = "zmk,behavior-macro";
+label = "macro_greetk";
+#binding-cells = <0>;
+bindings = <&kp HASH>, <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp T>, <&kp K>, <&kp SPACE>;
+};
+macro_greet: macro_greet{
+compatible = "zmk,behavior-macro";
+label = "macro_greet";
+#binding-cells = <0>;
+bindings = <&kp HASH>, <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp T>, <&kp SPACE>;
+};
 macro_guess2: macro_guess2{
 compatible = "zmk,behavior-macro";
 label = "macro_guess2";
@@ -8,7 +32,7 @@ macro_guess: macro_guess{
 compatible = "zmk,behavior-macro";
 label = "macro_guess";
 #binding-cells = <0>;
-bindings = <&kp LS(C)>, <&kp A>, <&kp C>, <&kp F>, <&kp NUMBER_9>, <&kp NUMBER_1>, <&kp C>, <&kp A>, <&kp EXCLAMATION>, <&kp NUMBER_1>;
+bindings = <&kp LS(R)>, <&kp I>, <&kp S>, <&kp M>, <&kp S>, <&kp NUMBER_5>, <&kp NUMBER_6>, <&kp NUMBER_1>, <&kp NUMBER_0>, <&kp EXCLAMATION>;
 };
 macro_accept: macro_accept{
 compatible = "zmk,behavior-macro";
